@@ -46,4 +46,15 @@ button{
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
+    transition: transform .3s ease-in-out;
+    transform: scale(1);
 }
+button:hover{
+    transform: scale(1.1);
+}
+button:active{
+    transform: scale(0.9);
+}
+
+                
+

@@ -18,3 +18,8 @@ function calculate(){
         display.value = "Syntax Error";
     }
 }
+
+const deleteBtn = document.getElementById("delete-btn");
+deleteBtn.addEventListener("click", function(){
+    display.value = display.value.slice(0, -1);
+});

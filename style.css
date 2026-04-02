@@ -28,6 +28,8 @@ input{
     background-color: white;
     color: black;
     width: 100%;
+    caret: ;
+    caret-color: black;
     height: 3rem;
     font-size: 20px;
     text-align: right;
@@ -45,9 +47,14 @@ button{
     padding: 1rem;
     border-radius: 10px;
     font-size: 20px;
+    border: 1px solid black;
     font-weight: bold;
     transition: transform .3s ease-in-out;
     transform: scale(1);
+}
+button:nth-child(17),
+button:nth-child(18){
+    grid-column: span 2;
 }
 button:hover{
     transform: scale(1.1);
